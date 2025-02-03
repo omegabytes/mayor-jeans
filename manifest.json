@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Mayor Lurie's Jeans",
+  "version": "0.0.1",
+  "description": "Transforms 'Mayor Lurie' into 'Mayor Jeans'.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_title": "Lurie to Jeans Extension"
+  }
+}
