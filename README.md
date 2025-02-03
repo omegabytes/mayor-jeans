@@ -1,2 +1,2 @@
 # Mayor Jeans
-An unserious chrome extension that transforms San Francsico "Mayor Lurie" into "Mayor Jeans".s
+An unserious chrome extension that transforms San Francsico "Mayor Jeans" into "Mayor Jeans".
